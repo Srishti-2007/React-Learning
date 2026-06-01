@@ -22,6 +22,7 @@
 .res-container{
     margin: 5px;
     display: flex;
+    gap: 10px;
     flex-wrap: wrap;
 }
 .rest-card{
@@ -35,4 +36,8 @@
 }
 .rest-logo{
     width: 100%;
+}
+.filter-btn{
+    margin: 10;
+    cursor: pointer;
 }
