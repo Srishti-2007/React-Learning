@@ -28,7 +28,7 @@
 .rest-card{
     padding: 5px;
  width:200px;
- height: 350px;
+ height: 400px;
 }
 .rest-card:hover{
      border: 1px solid black;
@@ -40,4 +40,22 @@
 .filter-btn{
     margin: 10;
     cursor: pointer;
+}
+.shimerContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimercard{
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+.loginbtn{
+    padding: 0 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.filter{
+    display: flex;
 }
